@@ -6,7 +6,7 @@ This project serves as the GUI for the [Rocket Bank Spring Boot API](https://git
 
 ## Tech Stack
 
-![My Skills](https://skillicons.dev/icons?i=js,vue,docker,sass,pinia&perline=5)
+![Tech Stack](https://skillicons.dev/icons?i=js,vue,docker,sass,pinia,pnpm&perline=7)
 
 ## Features
 
