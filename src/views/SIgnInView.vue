@@ -11,15 +11,9 @@ import LoginForm from '@/components/Login-Form.vue';
 
 <style lang="scss" scoped>
 .sign-in-container, .create-account-container{
-    background-color: var(--dark2);
     min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
-
-    @media only screen and (min-width: 1600px) {
-        border-right: 1px solid white;
-        border-left: 1px solid white;
-    }
 }
 </style>

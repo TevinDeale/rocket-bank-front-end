@@ -13,15 +13,9 @@ import CreateAccount from '@/components/Create-Account.vue';
 <style lang="scss" scoped>
 .create-account-container{
     color: white;
-    background-color: var(--dark2);
     min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
-
-    @media only screen and (min-width: 1600px) {
-        border-right: 1px solid white;
-        border-left: 1px solid white;
-    }
 }
 </style>

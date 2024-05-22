@@ -285,7 +285,7 @@ const submitCreateAccount = async () => {
   width: 500px;
   align-self: center;
   text-align: center;
-  background-color: var(--dark4);
+  background-color: var(--dark2);
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -369,7 +369,7 @@ const submitCreateAccount = async () => {
       font-size: 1rem;
 
       &:hover {
-        background-color: var(--dark2);
+        background-color: var(--dark4);
         transition: 0.5s;
       }
     }
@@ -385,12 +385,12 @@ const submitCreateAccount = async () => {
   }
 
   #log-in-button {
-    color: var(--primary);
+    color: white;
     font-size: 16px;
 
     &:hover {
       cursor: pointer;
-      color: var(--dark2);
+      color: var(--primary);
       transition: 0.3s;
     }
   }

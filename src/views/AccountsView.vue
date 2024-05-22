@@ -226,7 +226,7 @@ onMounted(async () => {
     border-radius: 10px;
 
     &:hover {
-      background-color: var(--dark2);
+      background-color: var(--primary);
       transition: 0.5s;
     }
   }

@@ -293,7 +293,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-color: var(--dark4);
+  background-color: var(--dark2);
   border-radius: 10px;
   padding: 1rem;
 
@@ -337,14 +337,14 @@ h2 {
   }
 
   .submit-button {
-    background-color: var(--dark1);
+    background-color: var(--primary);
     font-size: 1rem;
     padding: 1rem;
     width: 100%;
     border-radius: 10px;
 
     &:hover {
-      background-color: var(--dark2);
+      background-color: var(--dark4);
       transition: 0.5s;
     }
   }
@@ -489,7 +489,7 @@ h2 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     .button {
-      background-color: var(--dark1);
+      background-color: var(--primary);
       padding: 1rem;
       font-size: 1rem;
       border-radius: 10px;
@@ -500,7 +500,7 @@ h2 {
       }
 
       &:hover {
-        background-color: var(--dark2);
+        background-color: var(--dark4);
         transition: 0.5s;
       }
     }
