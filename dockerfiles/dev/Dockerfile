@@ -15,6 +15,7 @@ COPY src/ src/
 RUN apk update && npm install -g pnpm
 
 RUN pnpm install
+RUN pnpm build
 
 EXPOSE 5173
 
