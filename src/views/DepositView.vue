@@ -40,9 +40,5 @@ onMounted(async () => {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  @media only screen and (min-width: 1600px) {
-        border-right: 1px solid white;
-    }
 }
 </style>

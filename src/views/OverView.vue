@@ -256,9 +256,5 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-
-  @media only screen and (min-width: 1600px) {
-    border-right: 1px solid white;
-  }
 }
 </style>

@@ -26,8 +26,5 @@ if (store.accountNumber.account_number === 9000) {
   justify-content: center;
   align-items: center;
 
-  @media only screen and (min-width: 1600px) {
-        border-right: 1px solid white;
-    }
 }
 </style>

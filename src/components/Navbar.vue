@@ -191,10 +191,6 @@ const signOutHandler = () => {
             }
         }
     }
-
-    @media only screen and (min-width: 1600px) {
-        border-left: 1px solid white;
-    }
 }
 
 @keyframes rotateRocket {

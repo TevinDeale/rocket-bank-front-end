@@ -295,10 +295,6 @@ onMounted(async () => {
     margin-bottom: 1rem;
     color: rgba(128, 128, 128, 0.365);
   }
-
-  @media only screen and (min-width: 1600px) {
-    border-right: 1px solid white;
-  }
 }
 
 .showNav {
