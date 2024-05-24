@@ -413,7 +413,7 @@ h2 {
   }
 
   .submit-button {
-    background-color: var(--dark1);
+    background-color: var(--primary);
     font-size: 1rem;
     padding: 1rem;
     margin-top: 1rem;
@@ -427,9 +427,10 @@ h2 {
   }
 
   .disabled-button {
+    background-color: grey;
     &:hover {
-      background-color: var(--dark1);
-      cursor: not-allowed;
+      background-color: grey;
+      cursor: default;
     }
   }
 
@@ -533,7 +534,7 @@ h2 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     .button {
-      background-color: var(--dark1);
+      background-color: var(--primary);
       padding: 1rem;
       font-size: 1rem;
       border-radius: 10px;

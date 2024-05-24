@@ -193,7 +193,6 @@ h2 {
       height: 150px;
       width: 250px;
       border-radius: 10px;
-      background-image: url('../assets/bluebackground.png');
       background-size: cover;
     }
   }

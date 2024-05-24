@@ -11,6 +11,7 @@ COPY vue.config.js .
 COPY proxyurl.env .env
 COPY index.html .
 COPY src/ src/
+RUN --mount=type=secret,id=.env,required=true cp /run/secrets/.env /app/.env
 
 RUN apk update && npm install -g pnpm
 
