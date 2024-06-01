@@ -56,11 +56,22 @@ const handleError = () => {
   }
 }
 
+const sanitizeInput = (input) => {
+  input.trim()
+  if (input.includes('<')) {
+    input = input.replace('<', '')
+  } 
+  if (input.includes('>', '')) {
+    input = input.replace('>', '')
+  }
+  return input
+}
+
 const submitCreateAccount = async () => {
-  const fname = newAccount.fname.trim()
-  const lname = newAccount.lname.trim()
-  const username = newAccount.username.trim()
-  const password = newAccount.password.trim()
+  let fname = sanitizeInput(newAccount.fname)
+  let lname = sanitizeInput(newAccount.lname)
+  const username = sanitizeInput(newAccount.username)
+  const password = sanitizeInput(newAccount.password)
 
   if (fname.length === 0) {
     signUpErrors.fname = true
