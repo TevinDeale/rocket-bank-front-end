@@ -26,6 +26,6 @@ jobs:
       - name: Build and Push Image
         run: |
           docker buildx build --rm --platform linux/amd64 \
-          --file /dockerfiles/prod/Dockerfile \
+          --file dockerfiles/prod/Dockerfile \
           -t tevindeale/rocketbank-front-end:latest \
           --push .
